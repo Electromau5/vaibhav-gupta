@@ -1,13 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.jumbotron
+.jumbotron1
 {
 	height: 400px;
 	background-image: url(london1.jpg)!important;
 	background-position: 0% 25%;
 	background-size: cover;
 	background-repeat: no-repeat;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 30px;
 }
 
 .navbar-brand
