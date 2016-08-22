@@ -1,0 +1,54 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+       <li><%= link_to 'HOME', root_path %></li>
+       <li><%= link_to 'ABOUT', root_path %></li>
+       <li><%= link_to 'CONTACT', root_path %></li>
+       <li><%= link_to 'RESUME', root_path %></li>
+      </ul> 
+        
+      <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand">VAIBHAV GUPTA</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="project-name">PROJECT NAME: HEROES OF METEROPIA</h2>
+  <div class="flexslider">
+    <ul class="slides">
+      <li><%= image_tag('metropia4.jpg') %></li>
+      <li><%= image_tag('metropia.jpg') %></li>
+      <li><%= image_tag('metropia2.jpg') %></li>
+      <li><%= image_tag('metropia3.jpg') %></li>
+    </ul>
+  </div>
+  <h3 style="text-align:center">Objective</h3>
+
+  <p style="margin-left:20%;margin-right:20%">Whilst at Kingston University, my team and I were asked to design a game for Sony PlayStation, worthy of redeeming the failure console, the PSVITA, generating a novel concept to generate positive revenue. The game to be designed had to also utilize the PSVITA, key hardware features such as the front and rear touch inputs, the dual analog sticks and the ability of its OpenGL OS to process augmented reality using its rear facing camera.</p><br />
+
+  <h3 style="text-align:center">My Role</h3>
+
+  <p style="margin-left:20%;margin-right:20%">I worked as the Lead Game Designer and Project manager in a team of six comprising of two Digital Artists, two UX and UI Designers and one Programmer. My role was to come up with the main game concept, run the weekly scrum sessions and handle the creative production of the project.
+  </p><br />
+
+  <h3 style="text-align:center">Outcome</h3>
+
+  <p style="margin-left:20%;margin-right:20%">TWe produced Homemade Heroes, a game which takes the player through a mystery thriller tale, with the ability to generate his/her own Homemade Hero and fight crime along the way.What set the game apart was the concept of tactile rewards, where the player could during his gameplay customize his/her progress in comic format and at the end of the day, produce his/her own comic book with his/her own customized adventure, which Sony could then print and deliver at a price.With endless combinations and adventures, both single and multiplayer, the game fulfilled the brief given to us by both Sony and Kingston University.
+  </p><br />
+
+  <p style="margin-left:20%;margin-right:20%">A detailed analysis of this project can be found <%= link_to 'here', 'http://vaibhav2psp.wixsite.com/myportfolio/heroes-of-meteropia' %></p>
+
+    <h3 class="prev"><%= link_to 'Prev Project', pages_project2_path %></h3>
+    <h3 class="next"><%= link_to 'Next Project', pages_project4_path %></h3>
+  </div>
