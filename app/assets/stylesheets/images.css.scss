@@ -21,15 +21,43 @@
 
 .project-image1 img
 {
-   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -webkit-animation: fadein 0.7s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.7s; /* Firefox < 16 */
+    -ms-animation: fadein 0.7s; /* Internet Explorer */
+    -o-animation: fadein 0.7s; /* Opera < 12.1 */
+    animation: fadein 0.7s;
+}
+
+
+
+.project-image2 img
+{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.project-image3 img
+{
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
 }
 
+.project-image4 img
+{
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
 
-.project-image2 img
+.project-image5 img
 {
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
@@ -38,40 +66,13 @@
     animation: fadein 5s;
 }
 
-.project-image3 img
-{
-    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 7s; /* Firefox < 16 */
-    -ms-animation: fadein 7s; /* Internet Explorer */
-    -o-animation: fadein 7s; /* Opera < 12.1 */
-    animation: fadein 7s;
-}
-
-.project-image4 img
-{
-    -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 9s; /* Firefox < 16 */
-    -ms-animation: fadein 9s; /* Internet Explorer */
-    -o-animation: fadein 9s; /* Opera < 12.1 */
-    animation: fadein 9s;
-}
-
-.project-image5 img
-{
-    -webkit-animation: fadein 11s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 11s; /* Firefox < 16 */
-    -ms-animation: fadein 11s; /* Internet Explorer */
-    -o-animation: fadein 11s; /* Opera < 12.1 */
-    animation: fadein 11s;
-}
-
 .project-image6 img
 {
-    -webkit-animation: fadein 13s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 13s; /* Firefox < 16 */
-    -ms-animation: fadein 13s; /* Internet Explorer */
-    -o-animation: fadein 13s; /* Opera < 12.1 */
-    animation: fadein 13s;
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s; /* Firefox < 16 */
+    -ms-animation: fadein 6s; /* Internet Explorer */
+    -o-animation: fadein 6s; /* Opera < 12.1 */
+    animation: fadein 6s;
 }
 
 #profile img
