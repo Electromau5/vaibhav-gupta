@@ -18,6 +18,62 @@
 	border-radius: 0;
 
 }
+
+.project-image1 img
+{
+   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+
+.project-image2 img
+{
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+.project-image3 img
+{
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 7s; /* Firefox < 16 */
+    -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera < 12.1 */
+    animation: fadein 7s;
+}
+
+.project-image4 img
+{
+    -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 9s; /* Firefox < 16 */
+    -ms-animation: fadein 9s; /* Internet Explorer */
+    -o-animation: fadein 9s; /* Opera < 12.1 */
+    animation: fadein 9s;
+}
+
+.project-image5 img
+{
+    -webkit-animation: fadein 11s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 11s; /* Firefox < 16 */
+    -ms-animation: fadein 11s; /* Internet Explorer */
+    -o-animation: fadein 11s; /* Opera < 12.1 */
+    animation: fadein 11s;
+}
+
+.project-image6 img
+{
+    -webkit-animation: fadein 13s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 13s; /* Firefox < 16 */
+    -ms-animation: fadein 13s; /* Internet Explorer */
+    -o-animation: fadein 13s; /* Opera < 12.1 */
+    animation: fadein 13s;
+}
+
 #profile img
 {
 	margin-left: auto;
@@ -38,6 +94,7 @@
     animation: fadein 1s;
     
 }
+
 
 .project2 img
 {
