@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     itemWidth: 700,
