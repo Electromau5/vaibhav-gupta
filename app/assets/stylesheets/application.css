@@ -21,3 +21,16 @@
  *= require flexslider.css
  *= require_tree .
  */
+ @font-face {
+  font-family: 'MammaGamma';
+  font-weight: normal;
+  font-style: normal;
+  src: font-url('MammaGamma.ttf') format('truetype'),
+
+}
+ @font-face {
+  font-family: 'VertigoFLF';
+  font-weight: normal;
+  font-style: normal;
+  src: font-url('VertigoFLF.ttf') format('truetype'),
+     }
