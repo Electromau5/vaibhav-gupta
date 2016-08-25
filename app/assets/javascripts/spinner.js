@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   // hide spinner
-  $(".spinner").hide();
+  $(".spinner").hide(3000).hide(0);
 
 
   // show spinner on AJAX start
