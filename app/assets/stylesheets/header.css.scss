@@ -8,10 +8,11 @@
   	padding-top: 48px;
   	padding-bottom: 48px;
   	margin-bottom: 30px;
-  	animation:mymove 1s;
-	-webkit-animation:mymove 1s;
-	-moz-animation:mymove 1s;
-	-o-animation:mymove 1s;
+  	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
 
 }
 

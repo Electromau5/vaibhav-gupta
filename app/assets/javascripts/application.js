@@ -18,4 +18,5 @@
 //= require masonry/jquery.infinitescroll.min
 //= require masonry/modernizr-transitions
 //= require jquery.flexslider
+//= require turbolinks
 //= require_tree .
