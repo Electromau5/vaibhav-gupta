@@ -1,0 +1,52 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+       <li><%= link_to 'HOME', root_path %></li>
+       <li><%= link_to 'ABOUT', root_path %></li>
+       <li><%= link_to 'CONTACT', root_path %></li>
+       <li><%= link_to 'RESUME', root_path %></li>
+      </ul> 
+        
+      <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand">VAIBHAV GUPTA</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="project-name">PROJECT NAME: CULTURE DABBA</h2>
+  <div class="flexslider">
+    <ul class="slides">
+      <li class="project-image1"><%= image_tag('CD1.png') %></li>
+      <li class="project-image1"><%= image_tag('CD3.png') %></li>
+      <li class="project-image1"><%= image_tag('CD4.png') %></li>
+      <li class="project-image1"><%= image_tag('CD5.png') %></li>
+      <li class="project-image1"><%= image_tag('CD6.png') %></li>
+      <li class="project-image1"><%= image_tag('CD2.png') %></li>
+    </ul>
+  </div>
+  <h3 style="text-align:center">Objective</h3>
+
+  <p style="margin-left:20%;margin-right:20%">I currently work as a Digital Product Manager at a Minneapolis based startup called CultureDabba. CultureDabba is a subscription service which promotes Indian culture to American kids of Indian origin in the age band of 5-9 years.</p><br />
+
+  <h3 style="text-align:center">My Role</h3>
+
+  <p style="margin-left:20%;margin-right:20%">I handle all the digital initiatives of CultureDabba and explore new avenues to produce captivating content. I create their monthly comic strips, animated cartoons and videos and write and edit articles for the magazine. I manage a team of three extremely talented artists who work to contribute digital artwork for the magazine. I am also working on producing augmented reality games and maintaining the CultureDabba mobile app.</p><br />
+
+  <h3 style="text-align:center">Outcome</h3>
+
+  <p style="margin-left:20%;margin-right:20%">The CultureDabba subscriber base has grown considerably since my joining the team in June 2016. We started with a subscriber base of 50 and have now quadrupled the amount in three months and the response to our social media presence had grown in the thousands! We’ve grown from physical activities and content to active digital content and are continuing to grow extensively!</p><br />
+
+    <h3 class="prev"><%= link_to 'Prev Project',pages_project3_path %></h3>
+    <h3 class="next"><%= link_to 'Next Project', pages_project5_path %></h3>
+  </div>

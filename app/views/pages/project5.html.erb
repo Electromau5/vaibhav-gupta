@@ -1,0 +1,45 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+       <li><%= link_to 'HOME', root_path %></li>
+       <li><%= link_to 'ABOUT', root_path %></li>
+       <li><%= link_to 'CONTACT', root_path %></li>
+       <li><%= link_to 'RESUME', root_path %></li>
+      </ul> 
+        
+      <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand">VAIBHAV GUPTA</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="project-name">PROJECT NAME: GAME RESEARCH</h2>
+  <div class="flexslider">
+    <ul class="slides">
+      <li class="project-image1"><%= image_tag('game1.jpg') %></li>
+      <li class="project-image2"><%= image_tag('game2.jpg') %></li>
+      <li class="project-image3"><%= image_tag('game3.jpg') %></li>
+      <li class="project-image4"><%= image_tag('game4.jpg') %></li>
+      <li class="project-image5"><%= image_tag('game5.png') %></li>
+      <li class="project-image6"><%= image_tag('game6.jpg') %></li>
+    </ul>
+  </div>
+  <h3 style="text-align:center">A BRIEF SUMMARY OF MY RESEARCH</h3>
+
+  <p style="margin-left:20%;margin-right:20%">My work at Kingston University during my masters involved my writing a paper on Narratology vs Ludology in Military simulators, I did psychological research work on various video game design aspects including realism in video games and simulators. This submission on Military simulation won me attention and laurels from various recognised scholars in the UK. This research was done in collaboration with Prof. Stephen J. Webley of Staffordshire University. This piece of work established my indepth understanding of game creation. I have always been passionate about making games more real and true to life and my current research work focusses on ‘Defining realism in games’, which as every Video game academic knows is a Grey area and my work with Dr. Webley has helped us identify that Social Realism is a true form of realism in Video games. My next work goes into authoring a paper titled ‘Defining Social realism in games and understanding its relationship with player immersion’. I believe that the above research would help us design I believe that this would help us better understand on how to work on producing more realism in video games with acceptance from the audience. This would also help us understand more techniques in achieving greater immersion of the audience in video games.
+</p><br />
+
+    <h3 class="prev"><%= link_to 'Prev Project',pages_project4_path %></h3>
+    <h3 class="next"><%= link_to 'Next Project', pages_project6_path %></h3>
+  </div>
