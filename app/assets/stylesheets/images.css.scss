@@ -8,6 +8,12 @@
   width: 100%;
 }
 
+.img-circle
+{
+    border: 2px solid white;
+    width: 220px;
+}
+
 #profile
 {
 	float: left;
@@ -17,6 +23,18 @@
 	margin-right: auto;
 	border-radius: 0;
 
+}
+
+.profile-container
+{
+    height: 200px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: 10px;
+    background-color: #2E3D50;
 }
 
 .project-image1 img

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'pages#landing'
   get 'pages/about'
   get 'pages/resume'
+  get 'pages/contact'
   get 'pages/project1'
   get 'pages/project2'
   get 'pages/project3'
