@@ -21,8 +21,8 @@
 	margin-top: 10px;
 	color: #ffffff;
 	font-family: 'VertigoFLF';
-	text-align: center;
 	font-size: 35px;
+	text-align: center;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
     -ms-animation: fadein 3s; /* Internet Explorer */
@@ -45,6 +45,25 @@
     animation: fadein 1s;
 }
 
+.header1
+{
+
+	font-family: 'Lato-Regular';
+	font-size: 25px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: -10px;
+}
+
+.header1 > a
+{
+	color: #ffffff;
+}
+
+.header-group
+{
+	margin-top: 85px;
+}
 .project-name
 {
 	font-family:'Lato-Light',sans-serif;
